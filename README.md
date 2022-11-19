@@ -6,6 +6,7 @@
 
 # AntaresBot Website 
 
+- [https://bot.antaresnetwork.com/](https://bot.antaresnetwork.com/)
 - Description: This is the homepage for [Antares Bot](https://github.com/Antares-Network/AntaresBot)
 - The goal is to have a homepage that is clean, easy to understand, and explains all of AntaresBot's features and commands.
 
