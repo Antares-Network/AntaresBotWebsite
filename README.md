@@ -1,31 +1,23 @@
 [![Discord](https://discordapp.com/api/guilds/649703068799336454/widget.png)](https://playantares.com/discord)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Antares-Network/template-repo?style=social)
-![](https://img.shields.io/github/repo-size/Antares-Network/template-repo?color=Green&style=flat-square)
-![](https://img.shields.io/tokei/lines/github/Antares-Network/template-repo?style=flat-square)  
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Antares-Network/AntaresBotWebsite?style=social)
+![](https://img.shields.io/github/repo-size/Antares-Network/AntaresBotWebsite?color=Green&style=flat-square)
+![](https://img.shields.io/tokei/lines/github/Antares-Network/AntaresBotWebsite?style=flat-square)  
 ![](https://cdn.discordapp.com/icons/649703068799336454/1a7ef8f706cd60d62547d2c7dc08d6f0.png) 
 
-# Template Repo 
-- Description: This is a template repository for all new repos for the Antares Network
+# AntaresBot Website 
 
-## Rough outline:
-- Outline here
+- Description: This is the homepage for [Antares Bot](https://github.com/Antares-Network/AntaresBot)
+- The goal is to have a homepage that is clean, easy to understand, and explains all of AntaresBot's features and commands.
 
-## How to run yourself:
-- Explain that here
+## Credits
 
+- [Nate Goldsborough](https://nathen418.com)
+- [Hadi Koubeissi](https://github.com/Hadi-koubeissi)
 
-## End goal of the project:
-- Describe what the goal of the project is
+## Join our discord server
 
-
-
-## Credits:
-- Person A
-- Person B
-
-## Join our discord server:
 https://dsc.gg/antaresnetwork
 
 ## License
-- Default license is shown below. Other licenses may be chosen by the developer or the team at any time. Our default license will allow you to distribute our code without restriction as long as nothing is changed, and the terms of the Creative Commons License by--nc-nd are followed. However one must only contact us through our business email to request an exemption. If you wish to do anything that the cc by-nc-nd license does not allow, just ask about it and we will probably say go ahead.  
-<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+
+- [MIT](https://github.com/Antares-Network/AntaresBotWebsite/blob/main/LICENSE)

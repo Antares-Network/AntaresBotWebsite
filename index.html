@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/commands.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="shortcut icon" href="./img/AntaresBot.svg" type="image/x-icon">
+    <title>AntaresBot | Antares Network</title>
+</head>
+
+
+<body>
+
+    <!-- Navbar -->
+
+    <div class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container">
+            <a href='' class="navbar-brand"><span class="antares-secondary"><span
+                        class=" antares-primary">Antares</span>Bot</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu"><span
+                    class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainmenu">
+                <ul class="navbar-nav text-right mx-auto">
+                    <li class="nav-item"><a href="https://antaresnetwork.com" class="nav-link">Homepage</a></li>
+                    <li class="nav-item"><a href="https://status.antaresnetwork.com" class="nav-link">Status</a></li>
+                    <li class="nav-item"><a href="#Highlights" class="nav-link">Highlights</a></li>
+                    <li class="nav-item"><a href="#Statistics" class="nav-link">Statistics</a></li>
+                    <li class="nav-item"><a href="#FAQ" class="nav-link">FAQ</a></li>
+                    <li class="nav-item"><a href="#Commands" class="nav-link">Commands</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="linksdrop" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="linksdrop">
+                            <li><a class="dropdown-item text-muted" href="https://antaresnetwork.com/discord">Support
+                                    server</a></li>
+                            <li><a class="dropdown-item text-muted"
+                                    href="https://antaresnetwork.com/antaresbot/invite">Invite bot</a></li>
+                            <li><a class="dropdown-item text-muted"
+                                    href="https://antaresnetwork.com/antaresbot/github">Github</a></li>
+                            <li><a class="dropdown-item text-muted" href="https://status.antaresnetwork.com/">Network
+                                    Status</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main  -->
+    <section class="text-light text-center py-5">
+        <div class="container">
+            <div>
+                <img class="logo" width="auto" src="./img/AntaresBot.svg" alt="Antares Bot Icon">
+                <h1><span class="text-info">Antares</span>Bot</h1>
+                <p>AntaresBot a small bot with a bunch of features and cool commands.
+                    <br>Join in the fun by adding
+                    AntaresBot to your serer today.
+                    <br>Developed for fun by: Nate, John, and Seth
+                </p>
+                <a class="btn btn-light antares-primary-bg" href="https://antaresnetwork.com/antaresbot/invite">Invite
+                    Bot</a>
+                <a class="m-2 btn btn-light antares-secondary-bg" href="https://antaresnetwork.com/discord">Support
+                    Server</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights -->
+    <section id="Highlights" class="py-5 text-light">
+        <div class="container">
+            <h2 class="text-center mb-4">
+                Highlights
+            </h2>
+            <div class="row text-center">
+                <div class="col-sm">
+                    <div class="card highlight-card mb-3">
+                        <div class="h1 mt-3 antares-primary">
+                            <i class="bi bi-clock-history"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title antares-secondary">Simple Menus</h4>
+                            <p class="card-text">Use /help in any channel to get a list of commands and features that
+                                are accessible. Admins can use /adminhelp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card highlight-card mb-3">
+                        <div class="h1 mt-3 antares-primary">
+                            <i class="bi bi-capslock"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title antares-secondary">24/7 Online</h4>
+                            <p class="card-text">With a 99.98% uptime in the last 90 days, AntaresBot will always be
+                                available to use in your server.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card highlight-card mb-3">
+                        <div class="h1 mt-3 antares-primary">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title antares-secondary">Discord Verified</h4>
+                            <p class="card-text">AntaresBot is a Verified discord bot. We care about your experience and
+                                user data privacy and have been verified by discord to be good stewards of your data and
+                                their API.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="padding-top: 20px">
+            <div class="row text-center">
+                <div class="col-sm">
+                    <div class="card highlight-card mb-3">
+                        <div class="h1 mt-3 antares-primary">
+                            <svg width="40" height="40" viewBox="0 0 1000 1000">
+                                <rect x="0" y="0" width="100%" height="100%" fill="rgba(255,255,255,0)" />
+                                <g transform="matrix(64.9351 0 0 64.9351 500.0002 500.0002)" id="915380">
+                                    <path
+                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: #ff3505; fill-rule: nonzero; opacity: 1;"
+                                        vector-effect="non-scaling-stroke" transform=" translate(-8, -7.9815)"
+                                        d="M 2.114 8.063 V 7.9 c 1.005 -0.102 1.497 -0.615 1.497 -1.6 V 4.503 c 0 -1.094 0.39 -1.538 1.354 -1.538 h 0.273 V 2 h -0.376 C 3.25 2 2.49 2.759 2.49 4.352 v 1.524 c 0 1.094 -0.376 1.456 -1.49 1.456 v 1.299 c 1.114 0 1.49 0.362 1.49 1.456 v 1.524 c 0 1.593 0.759 2.352 2.372 2.352 h 0.376 v -0.964 h -0.273 c -0.964 0 -1.354 -0.444 -1.354 -1.538 V 9.663 c 0 -0.984 -0.492 -1.497 -1.497 -1.6 z M 13.886 7.9 v 0.163 c -1.005 0.103 -1.497 0.616 -1.497 1.6 v 1.798 c 0 1.094 -0.39 1.538 -1.354 1.538 h -0.273 v 0.964 h 0.376 c 1.613 0 2.372 -0.759 2.372 -2.352 v -1.524 c 0 -1.094 0.376 -1.456 1.49 -1.456 V 7.332 c -1.114 0 -1.49 -0.362 -1.49 -1.456 V 4.352 C 13.51 2.759 12.75 2 11.138 2 h -0.376 v 0.964 h 0.273 c 0.964 0 1.354 0.444 1.354 1.538 V 6.3 c 0 0.984 0.492 1.497 1.497 1.6 z"
+                                        stroke-linecap="round" />
+                                </g>
+                                <g transform="matrix(73.3154 0 0 73.3154 500 500)" id="430197">
+                                    <path
+                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: #ff3505; fill-rule: nonzero; opacity: 1;"
+                                        vector-effect="non-scaling-stroke" transform=" translate(-8.0001, -7.9999)"
+                                        d="M 11.354 4.646 a 0.5 0.5 0 0 1 0 0.708 l -6 6 a 0.5 0.5 0 0 1 -0.708 -0.708 l 6 -6 a 0.5 0.5 0 0 1 0.708 0 z"
+                                        stroke-linecap="round" />
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title antares-secondary">Slash Commands</h4>
+                            <p class="card-text">Using Discord's new "Slash Commands", Antares Bot supports many
+                                commands from fun random images, counting and chance games, a counting game, and more;
+                                You will never be bored with AntaresBot.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card highlight-card mb-3">
+                        <div class="h1 mt-3 antares-primary">
+                            <i class="bi bi-emoji-smile"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title antares-secondary">Partner</h4>
+                            <p class="card-text">We partner with Season Bot, a seasonal discord bot, designed to bring
+                                holiday fun and games to your server. So far with 11 seasons, 1,784 servers, and 178,3411
+                                users, Season Bot is proven good fun.</p>
+                            <p class="card-text">Check out Season Bot here: <a
+                                    href="https:/seasonbot.antaresnetwork.com">here</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card highlight-card mb-3">
+                        <div class="h1 mt-3 antares-primary">
+                            <i class="bi bi-hourglass-split"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title antares-secondary">Continuous Uptime Monitoring</h4>
+                            <p class="card-text">All services are continuously monitored for performance and uptime. All services automatically restart on failure, and the network admin is notified.</p>
+                            <p class="card-text">Check out our status page: <a
+                                    href="https:/status.antaresnetwork.com">here</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics -->
+    <section id="Statistics" class="py-5 text-light">
+        <div class="container">
+            <div class="py-2 text-center">
+                <h2>Statistics:</h2>
+            </div>
+            <div class="row align-items-center justify-content-center text-center -5">
+                <div class="col-sm p-5 h1">
+                    <i class="bi bi-hdd-stack antares-primary"></i>
+                    <h5>225</h5>
+                    <h5>Servers</h5>
+                </div>
+                <div class="col-sm p-5 h1">
+                    <i class="bi bi-people-fill antares-primary"></i>
+                    <h5>203,213</h5>
+                    <h5>Users</h5>
+                </div>
+                <div class="col-sm p-5 h1">
+                    <i class="bi bi-terminal antares-primary"></i>
+                    <h5>954,331</h5>
+                    <h5>Commands Used</h5>
+                </div>
+                <div class="col-sm p-5 h1">
+                    <i class="bi bi-ethernet antares-primary"></i>
+                    <h5>50ms</h5>
+                    <h5>Average Ping</h5>
+                </div>
+                <div class="col-sm p-5 h1">
+                    <i class="bi bi-hourglass-split antares-primary"></i>
+                    <h5>99.98%</h5>
+                    <h5>Uptime (90d)</h5>
+                </div>
+                <div class="py-2 text-center">
+                    <h3>More:</h3>
+                    <h5><a class="text-muted" href='https://beta.statcord.com/bot/736086156759924762'>More Stats</a>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commands -->
+    <div class="container">
+        <section id="Commands">
+            <div class="row">
+                <div class="col-sm-6 my-1">
+                    <h2 class="fw-bold">
+                        <span class="antares-secondary"><span class="fw-bold antares-primary">Antares</span>Bot <span
+                                class="text-light">Commands</span></span>
+                    </h2>
+                    <p class="command-description">Find all AntaresBot commands and information you need fast and easily
+                    </p>
+                </div>
+                <div class="col-sm-6 my-1">
+                    <script async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4050940490843957"
+                        crossorigin="anonymous"></script>
+                    <!-- banner -->
+                    <ins class="adsbygoogle" style="display:inline-block;width:100%;height:90px"
+                        data-ad-client="ca-pub-4050940490843957" data-ad-slot="6770580457"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+            </div>
+            <hr>
+        </section>
+        <div class="mt-4"></div>
+        <div class="row">
+            <div class="col-md-4 my-2">
+                <div class="card p-3">
+                    <h5>Select Commands Category</h5>
+                    <hr />
+                    <button onclick="active(this)" id="CategoryBtnAll"
+                        class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i
+                            class="fad fa-icons ttt"></i>&nbsp; All Commands</button>
+
+                    <button onclick="active(this)" id="CategoryBtn0"
+                        class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class='fas fa-gift ttt'></i>&nbsp;
+                        Admin Commands</button>
+
+                    <button onclick="active(this)" id="CategoryBtn1"
+                        class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class='fas fa-gift ttt'></i>&nbsp;
+                        Random Image Commands</button>
+
+                    <button onclick="active(this)" id="CategoryBtn2"
+                        class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class='fas fa-gift ttt'></i>&nbsp;
+                        Chance Commands</button>
+
+                    <button onclick="active(this)" id="CategoryBtn3"
+                        class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class='fas fa-gift ttt'></i>&nbsp;
+                        Misc Commands</button>
+
+                </div>
+            </div>
+            <div class="col-md-8 my-2">
+                <input type="text" class="w-100 search-box" oninput="search(this.value)"
+                    placeholder="Search for commands" />
+
+
+                <div class="mt-4"></div>
+
+                <div class="commands-section" id="Category0">
+
+
+                    <div class="accordion accordion-flush mt-2" id="setup">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#fsetup">
+                                    /setup&nbsp; <span class="command-description">- Setup where AntaresBot will send
+                                        messages</span>
+                                </button>
+                            </h2>
+                            <div id="fsetup" class="accordion-collapse collapse" data-bs-parent="#setup">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span> <br />
+                                    <span class="examples">
+                                        /setup default #general-chat<br>
+                                        /setup admin #admin-chat<br>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion accordion-flush mt-2" id="adminHelp">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#fadminHelp">
+                                    /adminHelp&nbsp; <span class="command-description">- Shows the Admin Help
+                                        embed</span>
+                                </button>
+                            </h2>
+                            <div id="fadminHelp" class="accordion-collapse collapse" data-bs-parent="#adminHelp">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span> <br />
+                                    <span class="examples">
+                                        /adminHelp<br>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion accordion-flush mt-2" id="remove">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#fremove">
+                                    /remove&nbsp; <span class="command-description">- Request all of your user data be
+                                        deleted</span>
+                                </button>
+                            </h2>
+                            <div id="fremove" class="accordion-collapse collapse" data-bs-parent="#remove">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span> <br />
+                                    <span class="examples">
+                                        /remove
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion accordion-flush mt-2" id="say">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#fsay">
+                                    /say&nbsp; <span class="command-description">- Make the bot say something</span>
+                                </button>
+                            </h2>
+                            <div id="fsay" class="accordion-collapse collapse" data-bs-parent="#say">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span> <br />
+                                    <span class="examples">
+                                        /say &lt;some text&gt;<br>
+                                        /say &lt;some text&gt; &lt;#channel&gt;<br>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion accordion-flush mt-2" id="command">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#fcommand">
+                                    /command&nbsp; <span class="command-descreption">- Enables or Disables any
+                                        command</span>
+                                </button>
+                            </h2>
+                            <div id="fcommand" class="accordion-collapse collapse" data-bs-parent="#command">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span><br />
+                                    <span class="examples">
+                                        /command &lt;enable/disable&gt; &lt;command name&gt;<br>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion accordion-flush mt-2" id="requiredRole">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#frequiredRole">
+                                    /requiredRole&nbsp; <span class="command-descreption">- Allows the ability to
+                                        require certain roles to run a command</span>
+                                </button>
+                            </h2>
+                            <div id="frequiredRole" class="accordion-collapse collapse" data-bs-parent="#requiredRole">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span><br />
+                                    <span class="examples">
+                                        /requiredRole &lt;command name&gt; &lt;none/role id&gt;<br>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion accordion-flush mt-2" id="prefix">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#fprefix">
+                                    /prefix&nbsp; <span class="command-descreption">- Set the prefix the bot will use
+                                        for legacy commands</span>
+                                </button>
+                            </h2>
+                            <div id="fprefix" class="accordion-collapse collapse" data-bs-parent="#prefix">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span><br />
+                                    <span class="examples">
+                                        /prefix &lt;some new prefix&gt;<br>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion accordion-flush mt-2" id="counting">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#fcounting">
+                                    /counting&nbsp; <span class="command-descreption">- Creates a channel called
+                                        #counting</span>
+                                </button>
+                            </h2>
+                            <div id="fcounting" class="accordion-collapse collapse" data-bs-parent="#counting">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span><br />
+                                    <span class="examples">
+                                        /counting<br>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="commands-section" id="Category1">
+
+                    <div class="accordion accordion-flush mt-2" id="cat">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#fcat">
+                                    /cat&nbsp; <span class="command-descreption">- Sends a random cat image</span>
+                                </button>
+                            </h2>
+                            <div id="fcat" class="accordion-collapse collapse" data-bs-parent="#cat">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span><br />
+                                    <span class="examples">
+                                        /cat
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion accordion-flush mt-2" id="dog">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#fdog">
+                                    /dog&nbsp; <span class="command-descreption">- Sends a random dog image</span>
+                                </button>
+                            </h2>
+                            <div id="fdog" class="accordion-collapse collapse" data-bs-parent="#dog">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span><br />
+                                    <span class="examples">
+                                        /dog
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion accordion-flush mt-2" id="fox">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#ffox">
+                                    /fox&nbsp; <span class="command-descreption">- Sends a random fox image</span>
+                                </button>
+                            </h2>
+                            <div id="ffox" class="accordion-collapse collapse" data-bs-parent="#fox">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span><br />
+                                    <span class="examples">
+                                        /fox
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion accordion-flush mt-2" id="duck">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#fduck">
+                                    /duck&nbsp; <span class="command-descreption">- Sends a random duck image</span>
+                                </button>
+                            </h2>
+                            <div id="fduck" class="accordion-collapse collapse" data-bs-parent="#duck">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span><br />
+                                    <span class="examples">
+                                        /duck
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion accordion-flush mt-2" id="comic">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#fcomic">
+                                    /comic&nbsp; <span class="command-descreption">- Sends a random XKCD comic</span>
+                                </button>
+                            </h2>
+                            <div id="fcomic" class="accordion-collapse collapse" data-bs-parent="#comic">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span><br />
+                                    <span class="examples">
+                                        /comic
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion accordion-flush mt-2" id="ping">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#fping">
+                                    /ping&nbsp; <span class="command-description">- Get bot&#39;s host server status
+                                        &amp; latency</span>
+                                </button>
+                            </h2>
+                            <div id="fping" class="accordion-collapse collapse" data-bs-parent="#ping">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span> <br />
+                                    <span class="examples">
+                                        /ping
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion accordion-flush mt-2" id="invite">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#finvite">
+                                    /invite&nbsp; <span class="command-description">- Invite bot to your server</span>
+                                </button>
+                            </h2>
+                            <div id="finvite" class="accordion-collapse collapse" data-bs-parent="#invite">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span> <br />
+                                    <span class="examples">
+                                        /invite
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="commands-section" id="Category2">
+                </div>
+
+                <div class="commands-section" id="Category3">
+                    <div class="accordion accordion-flush mt-2" id="help">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#fhelp">
+                                    /help&nbsp; <span class="command-description">- Bot&#39;s help menu</span>
+                                </button>
+                            </h2>
+                            <div id="fhelp" class="accordion-collapse collapse" data-bs-parent="#help">
+                                <div class="accordion-body">
+                                    <span>Usage Examples:</span> <br />
+                                    <span class="examples">
+                                        /help<br>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-clean bg-dark">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Quick access</h3>
+                        <ul>
+                            <li><a href="#Highlights">Highlights</a></li>
+                            <li><a href="#Statistics">Statistics</a></li>
+                            <li><a href="#FAQ">Ask me</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="./pages/commands.html">Commands</a></li>
+                            <li><a href="https://github.com/Antares-Network/AntaresBot#credits">Team</a></li>
+                            <li><a href="https://github.com/Antares-Network/AntaresBot/blob/main/LICENSE">License</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Links</h3>
+                        <ul>
+                            <li><a href="https://antaresnetwork.com/discord">Support server</a></li>
+                            <li><a href="https://antaresnetwork.com/antaresbot/invite">Invite bot</a></li>
+                            <li><a href="https://antaresnetwork.com/antaresbot/github">Github</a></li>
+                            <li><a href="https://status.antaresnetwork.com/">Network Status</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social">
+                        <a href="https://antaresnetwork.com/discord">
+                            <ion-icon name="logo-discord"></ion-icon>
+                        </a>
+                        <a href="https://antaresnetwork.com/antaresbot">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        <p><span class="antares-secondary"><span
+                                    class=" antares-primary">Antares</span>Network</span><span class="copyright"> ©
+                                2022</span></p>
+                        <p class="copyright">Original Site design: Hadi Koubeissi © 2022</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Misc JS and  -->
+    <input id="commands"
+        value="[{&#34;title&#34;:&#34;&lt;i class=&#39;fas fa-gift ttt&#39;&gt;&lt;/i&gt;&amp;nbsp; User Commands&#34;,&#34;commands&#34;:[&#34;setup&#34;,&#34;adminHelp&#34;,&#34;remove&#34;]},{&#34;title&#34;:&#34;&lt;i class=&#39;fas fa-globe-europe ttt&#39;&gt;&lt;/i&gt;&amp;nbsp; General Commands&#34;,&#34;commands&#34;:[&#34;help&#34;,&#34;ping&#34;,&#34;invite&#34;]},{&#34;title&#34;:&#34;&lt;i class=&#39;fas fa-hammer-war ttt&#39;&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp; Leveling Commands&#34;,&#34;commands&#34;:[&#34;leaderboard&#34;]},{&#34;title&#34;:&#34;&lt;i class=&#39;fas fas fa-crown ttt&#39;&gt;&lt;/i&gt;&amp;nbsp; Premium Commands&#34;,&#34;commands&#34;:[&#34;reactionrole&#34;,&#34;slowmode&#34;]}]"
+        hidden />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/fontawesome/all.min.js"></script>
+    <script>
+        function active(elm) {
+            document.getElementById("CategoryBtnAll").classList.remove("active");
+
+            document.getElementById("CategoryBtn0").classList.remove("active");
+            document.getElementById("Category0").setAttribute("hidden", "");
+
+            document.getElementById("CategoryBtn1").classList.remove("active");
+            document.getElementById("Category1").setAttribute("hidden", "");
+
+            document.getElementById("CategoryBtn2").classList.remove("active");
+            document.getElementById("Category2").setAttribute("hidden", "");
+
+            document.getElementById("CategoryBtn3").classList.remove("active");
+            document.getElementById("Category3").setAttribute("hidden", "");
+
+            elm.classList.add("active");
+            if (elm.id.replace("CategoryBtn", "") == "All") {
+
+                document.getElementById("Category0").removeAttribute("hidden");
+
+                document.getElementById("Category1").removeAttribute("hidden");
+
+                document.getElementById("Category2").removeAttribute("hidden");
+
+                document.getElementById("Category3").removeAttribute("hidden");
+
+            } else {
+                document.getElementById("Category" + elm.id.replace("CategoryBtn", "")).removeAttribute("hidden");
+            }
+        }
+        document.getElementById("CategoryBtnAll").click();
+        function search(arg) {
+            let commands = JSON.parse(document.getElementById("commands").value);
+            let cmds = [];
+            commands.forEach(category => {
+                category.commands.forEach(command => {
+                    cmds.push(command);
+                })
+            })
+            let existedCmds = cmds.filter(obj => obj.includes(arg.toLowerCase()));
+            cmds.forEach(cmd => {
+                document.getElementById(cmd).setAttribute("hidden", "");
+            })
+            existedCmds.forEach(cmd => {
+                document.getElementById(cmd).removeAttribute("hidden");
+            })
+        }
+    </script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+
+</html>
