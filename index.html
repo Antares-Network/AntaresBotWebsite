@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="shortcut icon" href="./img/AntaresBot.svg" type="image/x-icon">
     <link rel="canonical" href="https://bot.antaresnetwork.com/" />
     <title>AntaresBot | Antares Network</title>
     <meta name="description"
-    content="The Homepage for AntaresBot. AntaresBot a small bot with a bunch of features and cool commands. Join in the fun by adding AntaresBot to your serer today.">
+        content="The Homepage for AntaresBot. AntaresBot a small bot with a bunch of features and cool commands. Join in the fun by adding AntaresBot to your serer today.">
     <meta name="keywords"
         content="Antares Bot, AntaresBot, Antares, Network, Antares Network, Antares Network Projects, Antares Network Github, Antares Network Github Organization, Antares Network Github Page, Antares Network Github Organization Page, Antares Network Github Organization Page, Nathen418, nathen418, Discord Bot">
     <meta name="author" content="Antares Network">
@@ -206,22 +206,22 @@
             <div class="row align-items-center justify-content-center text-center -5">
                 <div class="col-sm p-5 h1">
                     <i class="bi bi-hdd-stack antares-primary"></i>
-                    <h5>225</h5>
+                    <h5 id="statcord-servers"></h5>
                     <h5>Servers</h5>
                 </div>
                 <div class="col-sm p-5 h1">
                     <i class="bi bi-people-fill antares-primary"></i>
-                    <h5>203,213</h5>
+                    <h5 id="statcord-users"></h5>
                     <h5>Users</h5>
                 </div>
                 <div class="col-sm p-5 h1">
                     <i class="bi bi-terminal antares-primary"></i>
-                    <h5>954,331</h5>
+                    <h5>955,173</h5>
                     <h5>Commands Used</h5>
                 </div>
                 <div class="col-sm p-5 h1">
                     <i class="bi bi-ethernet antares-primary"></i>
-                    <h5>86ms</h5>
+                    <h5 id="statcord-ping">89ms</h5>
                     <h5>Average Ping</h5>
                 </div>
                 <div class="col-sm p-5 h1">
@@ -235,7 +235,6 @@
                     </h5>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- Commands -->
@@ -453,7 +452,8 @@
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                     data-bs-target="#fseasonbot">
-                                    /seasonbot&nbsp; <span class="command-description">- Show's information about the current SeasonBot season</span>
+                                    /seasonbot&nbsp; <span class="command-description">- Show's information about the
+                                        current SeasonBot season</span>
                                 </button>
                             </h2>
                             <div id="fseasonbot" class="accordion-collapse collapse" data-bs-parent="#seasonbot">
@@ -507,7 +507,8 @@
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                     data-bs-target="#fversion">
-                                    /version&nbsp; <span class="command-description">- Shows the bot's current version</span>
+                                    /version&nbsp; <span class="command-description">- Shows the bot's current
+                                        version</span>
                                 </button>
                             </h2>
                             <div id="fversion" class="accordion-collapse collapse" data-bs-parent="#version">
@@ -525,7 +526,8 @@
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                     data-bs-target="#fupdate">
-                                    /update&nbsp; <span class="command-description">- (Legacy) Makes sure the stats database is up to date. Used with the /stats command</span>
+                                    /update&nbsp; <span class="command-description">- (Legacy) Makes sure the stats
+                                        database is up to date. Used with the /stats command</span>
                                 </button>
                             </h2>
                             <div id="fupdate" class="accordion-collapse collapse" data-bs-parent="#update">
@@ -543,7 +545,8 @@
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                     data-bs-target="#fstats">
-                                    /stats&nbsp; <span class="command-description">- Shows some basic bot statistics</span>
+                                    /stats&nbsp; <span class="command-description">- Shows some basic bot
+                                        statistics</span>
                                 </button>
                             </h2>
                             <div id="fstats" class="accordion-collapse collapse" data-bs-parent="#stats">
@@ -579,7 +582,8 @@
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                     data-bs-target="#fprivacy">
-                                    /privacy&nbsp; <span class="command-description">- Sends a link to the bot's privacy policy</span>
+                                    /privacy&nbsp; <span class="command-description">- Sends a link to the bot's privacy
+                                        policy</span>
                                 </button>
                             </h2>
                             <div id="fprivacy" class="accordion-collapse collapse" data-bs-parent="#privacy">
@@ -597,7 +601,8 @@
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                     data-bs-target="#fremove">
-                                    /remove&nbsp; <span class="command-description">- Request your user data be deleted from the bot's servers</span>
+                                    /remove&nbsp; <span class="command-description">- Request your user data be deleted
+                                        from the bot's servers</span>
                                 </button>
                             </h2>
                             <div id="fremove" class="accordion-collapse collapse" data-bs-parent="#remove">
@@ -653,12 +658,13 @@
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                     data-bs-target="#fask">
-                                    /ask&nbsp; <span class="command-description">- Ask the magic 8 ball a question</span>
+                                    /ask&nbsp; <span class="command-description">- Ask the magic 8 ball a
+                                        question</span>
                                 </button>
                             </h2>
                             <div id="fask" class="accordion-collapse collapse" data-bs-parent="#ask">
                                 <div class="accordion-body">
-                                    <span>Usage Examples:</span> <br/>
+                                    <span>Usage Examples:</span> <br />
                                     <span class="examples">
                                         /ask &lt;Your question here&gt;
                                     </span>
@@ -882,6 +888,22 @@
     </div>
 
     <!-- Misc JS and  -->
+    <script>
+        fetch("https://api.statcord.com/v3/736086156759924762")
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                var servers = document.getElementById("statcord-servers");
+                var users = document.getElementById("statcord-users");
+                var serversDiv = document.createElement("div");
+                var usersDiv = document.createElement("div");
+                serversDiv.innerHTML = data["data"][0].servers;
+                usersDiv.innerHTML = data["data"][0].users.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+                servers.appendChild(serversDiv);
+                users.appendChild(usersDiv);
+            })
+    </script>
     <script>
         function active(elm) {
             document.getElementById("CategoryBtnAll").classList.remove("active");
